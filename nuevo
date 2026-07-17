@@ -1,0 +1,3 @@
+const DB_PATH = process.env.VERCEL
+  ? path.join('/tmp', 'server_history.json')
+  : path.join(process.cwd(), 'server_history.json');
